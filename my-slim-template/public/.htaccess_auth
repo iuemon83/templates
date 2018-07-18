@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Please Enter ID and pass"
+AuthUserFile /etc/httpd/conf/.htpasswd
+require valid-user
